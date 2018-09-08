@@ -25,8 +25,8 @@ export default class Youtube extends Component {
         autoplay={true} 
         suggestions={false} 
         showInfo={false} 
-        controls={false} 
-        size='large'
+        width='100%'
+        height='720px'
         />
       </div>
     )
